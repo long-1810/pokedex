@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: "Orbitron", sans-serif;
+    /* background-color: white; */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: grey;
+    color: white;
+}
+
+#name-pokemon {
+    font-weight: bold;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+}
+
+#abilities-pokemon {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.card-ability {
+    padding: 1.5rem 2rem;
+    background-color:antiquewhite;
+}
+
+#sprites-pokemon {
+    display: flex;
+    gap: 2rem;
+}
+
+.sprite {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color:aqua;
+    padding: 1rem;
+}
